@@ -1,0 +1,32 @@
+.features {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.features h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #16213e;
+}
+
+.features-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  flex: 300px;
+  text-align: left;
+}
+
+.feature-card h3 {
+  color: #e94560;
+  margin-bottom: 3rem;
+}
