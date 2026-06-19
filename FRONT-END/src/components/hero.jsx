@@ -24,13 +24,13 @@ function Hero() {
 }
 
 const infoBox = {
-  height: "300px", width: "190px"
+  height: "300px", width: "17%"
 };
 const infoBox2 = {
-  height: "250px", width: "170px" , margin: "50px 0 0 0"
+  height: "250px", width: "15%" , margin: "50px 0 0 0"
 };
 const infoBox3 = {
-  height: "200px", width: "150px" , margin: "100px 0 0 0"
+  height: "200px", width: "13%" , margin: "100px 0 0 0"
 };
 
 

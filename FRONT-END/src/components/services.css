@@ -1,0 +1,27 @@
+.services-area {
+    display: flex;
+    background: moccasin;
+    width: 100vw;
+    padding: 4rem 3rem;
+}
+
+.services-area1{
+   width: 40%;
+   height: 70vh;   
+   background-color: aqua;
+}
+.services-area2{
+    width: 60%;
+    height: 70vh;
+    background-color: plum;
+}
+.services-area2 article {
+    padding: 1.5rem 4rem 0 4rem;
+
+}
+.services-area2 article h2, .services-area2 article h2{
+    margin-bottom: 10px;
+}
+.services-area2 article p {
+        margin-bottom: 30px;
+}
