@@ -8,12 +8,10 @@
 .services-area1{
    width: 40%;
    height: 70vh;   
-   background-color: aqua;
 }
 .services-area2{
     width: 60%;
     height: 70vh;
-    background-color: plum;
 }
 .services-area2 article {
     padding: 1.5rem 4rem 0 4rem;

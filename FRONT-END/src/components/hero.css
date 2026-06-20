@@ -1,10 +1,17 @@
 .hero {
-  background:burlywood;
-  color: black;
-  padding: 6rem 0;
-  text-align: center;
+  color: white;
+  text-align: left;
+  background-image: url(../assets/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 98vh;
+  padding: 4rem 2rem;
 }
-
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
 .hero-content h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -13,8 +20,8 @@
 .hero-content p {
   font-size: 1.2rem;
   max-width: 600px;
-  margin: 0 auto 2rem;
   opacity: 0.9;
+    margin-bottom: 1rem;
 }
 
 .cta-btn {
@@ -26,19 +33,26 @@
   border-radius: 500px;
   cursor: pointer;
   transition: background 0.3s;
-  margin: 0 10px;
 }
 
 .cta-btn:hover {
   background: #c23152;
 }
-.info {
-display: flex;
-flex-direction: row;
-justify-content: center;
-gap: 50px;
+
+.mySwiper {
+  width: 100%;
+}
+.mySwiper .swiper-slide {
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+.mySwiper .swiper-slide-active {
+  opacity: 1; 
+  transform: scale(1);
 }
 .info-div {
   background-color: white;
   border-radius: 15px;
+  height: 250px;
 }

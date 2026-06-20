@@ -1,5 +1,6 @@
 import React from "react";
 import './Services.css'
+import Pict from "../assets/ylovemusic.jpeg"
 
 const service = [
   { title: 'Fast', desc: 'Powered by Vite for lightning-fast development.' },
@@ -11,7 +12,9 @@ const service = [
 function services() {
   return (
     <div className="services-area">
-        <div className="services-area1"></div>
+        <div className="services-area1">
+          <img src={Pict} alt="" srcset="" width="100%"/>
+        </div>
         <div className="services-area2">
           <article>
             <h2>The Key to Smooth Development of Efficient Projects</h2>
